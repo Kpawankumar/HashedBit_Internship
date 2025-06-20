@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nature World - Simple</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2e7d32;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+    header img {
+      height: 50px;
+    }
+    header a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+    }
+    nav {
+      background-color: #66bb6a;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+    aside {
+      flex: 1;
+      min-width: 200px;
+      padding: 10px;
+      background-color: #f0f4c3;
+    }
+    main {
+      flex: 3;
+      min-width: 300px;
+      padding: 10px;
+    }
+    .box {
+      background-color: #e8f5e9;
+      margin-bottom: 20px;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .box img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-left">
+      <a href="#"><img src="https://images.unsplash.com/photo-1610878180933-efb35f0c9e6d?auto=format&fit=crop&w=60&q=80" alt="Logo"></a>
+    </div>
+    <div class="header-right">
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">YouTube</a>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <aside>
+      <h3>Fun Facts</h3>
+      <p>Trees can live for thousands of years. Some forests are older than human civilization!</p>
+      <h4>Useful Links</h4>
+      <ul>
+        <li><a href="#">Tree Types</a></li>
+        <li><a href="#">Rainforest Info</a></li>
+        <li><a href="#">Wildlife</a></li>
+      </ul>
+    </aside>
+
+    <main>
+      <section class="box">
+        <h3>Amazon Forest</h3>
+        <img src="https://images.unsplash.com/photo-1549887534-4c1c6b9f1c36?auto=format&fit=crop&w=800&q=80" alt="Amazon Forest">
+        <p>The Amazon is the largest tropical rainforest in the world, home to amazing biodiversity.</p>
+      </section>
+
+      <section class="box">
+        <h3>Himalayan Range</h3>
+        <img src="https://images.unsplash.com/photo-1610878180933-efb35f0c9e6d?auto=format&fit=crop&w=800&q=80" alt="Himalayan Range">
+        <p>The Himalayas host many of the Earth's highest peaks, including Mount Everest.</p>
+      </section>
+
+      <section class="box">
+        <h3>Coral Reefs</h3>
+        <img src="https://images.unsplash.com/photo-1603972707460-d4c54eb01382?auto=format&fit=crop&w=800&q=80" alt="Coral Reefs">
+        <p>Coral reefs support marine life and are often called the rainforests of the sea.</p>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>© 2025 Nature World | Created by Student</p>
+  </footer>
+
+</body>
+</html>
